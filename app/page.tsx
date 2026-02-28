@@ -256,6 +256,12 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="bg-pink-50 border border-pink-100 rounded-2xl px-4 py-3 mb-4 text-sm text-gray-500 text-center">
+            <span className="font-bold text-gray-700">Jen</span> got{" "}
+            <span className="font-bold text-pink-500">🍬 Sweet Enthusiast</span>
+            {" "}— Caramel Latte
+          </div>
+
           <button
             onClick={handleRestart}
             className="w-full bg-pink-400 hover:bg-pink-500 text-white font-bold text-base py-3 rounded-full shadow transition-transform hover:-translate-y-0.5 active:translate-y-0"
